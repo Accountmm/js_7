@@ -13,10 +13,9 @@ while (isNaN(b) || b == 0 || b < 0) {
 // }
 // var result = 1
 // let box = a
-// let result = a
-for (var i = 1; i < b; i++) {
-    // a*a
-    var result= a * a
-    // console.log(a);
+let result = a
+for (let i = 1; i < b; i++) {
+     result = result * a
+
 }
-console.log(a);
+console.log(result);
