@@ -4,8 +4,19 @@ while (isNaN(a) || a == 0 || a < 0) {
 }
 let b = +prompt("write a degree of a number")
 while (isNaN(b) || b == 0 || b < 0) {
-    a = +prompt("that is not the thing that we are looking for " + " pl enter the number")
+    b = +prompt("that is not the thing that we are looking for " + " pl enter the number")
 }
-console.log( a ** b); 
-// alert = (a ** b)
-// alert = (result)
+// console.log( a ** b); 
+// for (let i = 0; i < b; i++) {
+//     console.log(a*b);
+
+// }
+// var result = 1
+// let box = a
+// let result = a
+for (var i = 1; i < b; i++) {
+    // a*a
+    var result= a * a
+    // console.log(a);
+}
+console.log(a);
